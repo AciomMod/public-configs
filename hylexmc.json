@@ -1,150 +1,17 @@
 [
   {
-    "name": "Block ESP",
+    "name": "ESP",
     "state": true,
     "keyBind": 0,
     "options": {
       "Render Type": {
         "type": "LIST",
         "selectedIndex": 1
-      }
-    }
-  },
-  {
-    "name": "Fullbright",
-    "state": true,
-    "keyBind": 0,
-    "options": {}
-  },
-  {
-    "name": "Ambience",
-    "state": false,
-    "keyBind": 0,
-    "options": {
-      "Fog Distance": {
-        "type": "NUMBER",
-        "value": 5.0
-      },
-      "Fog Color": {
-        "type": "LIST",
-        "selectedIndex": 0
-      }
-    }
-  },
-  {
-    "name": "Disabler",
-    "state": false,
-    "keyBind": 0,
-    "options": {}
-  },
-  {
-    "name": "Boat Fly",
-    "state": false,
-    "keyBind": 0,
-    "options": {
-      "Fly Speed": {
-        "type": "NUMBER",
-        "value": 3.0
-      }
-    }
-  },
-  {
-    "name": "Smaller Items",
-    "state": true,
-    "keyBind": 0,
-    "options": {
-      "Item Scale": {
-        "type": "NUMBER",
-        "value": 0.6
-      }
-    }
-  },
-  {
-    "name": "Scaffold",
-    "state": false,
-    "keyBind": 0,
-    "options": {}
-  },
-  {
-    "name": "Killaura",
-    "state": false,
-    "keyBind": 82,
-    "options": {
-      "Hit Delay": {
-        "type": "LIST",
-        "selectedIndex": 1
-      },
-      "Aim Visuals": {
-        "type": "BOOLEAN",
-        "value": false
-      },
-      "Attack Priority": {
-        "type": "LIST",
-        "selectedIndex": 0
       },
       "Targets": {
         "type": "MULTI_LIST",
         "selectedIndexes": [
-          1,
           0
-        ]
-      },
-      "Range": {
-        "type": "NUMBER",
-        "value": 3.9
-      },
-      "Through Walls": {
-        "type": "BOOLEAN",
-        "value": true
-      },
-      "Aim Assistance": {
-        "type": "BOOLEAN",
-        "value": true
-      }
-    }
-  },
-  {
-    "name": "Bed Breaker",
-    "state": true,
-    "keyBind": 86,
-    "options": {
-      "Break Range": {
-        "type": "NUMBER",
-        "value": 5.0
-      }
-    }
-  },
-  {
-    "name": "Join Leave",
-    "state": false,
-    "keyBind": 0,
-    "options": {}
-  },
-  {
-    "name": "Fly",
-    "state": false,
-    "keyBind": 67,
-    "options": {
-      "Fly Mode": {
-        "type": "LIST",
-        "selectedIndex": 1
-      }
-    }
-  },
-  {
-    "name": "Player ESP",
-    "state": true,
-    "keyBind": 0,
-    "options": {
-      "Render Type": {
-        "type": "LIST",
-        "selectedIndex": 1
-      },
-      "Targets": {
-        "type": "MULTI_LIST",
-        "selectedIndexes": [
-          0,
-          1
         ]
       },
       "Health Bar": {
@@ -162,21 +29,33 @@
     }
   },
   {
-    "name": "Inventory Move",
+    "name": "Freecam",
+    "state": false,
+    "keyBind": 85,
+    "options": {}
+  },
+  {
+    "name": "Fullbright",
     "state": true,
     "keyBind": 0,
     "options": {}
   },
   {
-    "name": "Speed",
+    "name": "Tower",
     "state": false,
-    "keyBind": 88,
+    "keyBind": 0,
     "options": {
-      "Speed Mode": {
+      "Tower Mode": {
         "type": "LIST",
-        "selectedIndex": 1
+        "selectedIndex": 0
       }
     }
+  },
+  {
+    "name": "Inventory Move",
+    "state": true,
+    "keyBind": 0,
+    "options": {}
   },
   {
     "name": "Storage ESP",
@@ -198,6 +77,64 @@
     }
   },
   {
+    "name": "Ambience",
+    "state": false,
+    "keyBind": 0,
+    "options": {
+      "Fog Distance": {
+        "type": "NUMBER",
+        "value": 5.0
+      },
+      "Fog Color": {
+        "type": "LIST",
+        "selectedIndex": 0
+      }
+    }
+  },
+  {
+    "name": "Fastplace",
+    "state": false,
+    "keyBind": 0,
+    "options": {}
+  },
+  {
+    "name": "Scaffold",
+    "state": false,
+    "keyBind": 86,
+    "options": {
+      "Scaffold Mode": {
+        "type": "LIST",
+        "selectedIndex": 1
+      },
+      "Auto Sneak Delay": {
+        "type": "NUMBER",
+        "value": 1.1
+      },
+      "Auto Sneak": {
+        "type": "BOOLEAN",
+        "value": false
+      }
+    }
+  },
+  {
+    "name": "Auto Totem",
+    "state": true,
+    "keyBind": 0,
+    "options": {}
+  },
+  {
+    "name": "ClickGui",
+    "state": false,
+    "keyBind": 344,
+    "options": {}
+  },
+  {
+    "name": "Join Leave",
+    "state": false,
+    "keyBind": 0,
+    "options": {}
+  },
+  {
     "name": "TNT Timer",
     "state": true,
     "keyBind": 0,
@@ -209,30 +146,100 @@
     }
   },
   {
-    "name": "Detector",
-    "state": true,
+    "name": "Resource Spoof",
+    "state": false,
     "keyBind": 0,
     "options": {
-      "Anticheat": {
-        "type": "LIST",
-        "selectedIndex": 0
+      "Display Pack URL": {
+        "type": "BOOLEAN",
+        "value": true
       }
     }
   },
   {
-    "name": "Auto Totem",
-    "state": true,
+    "name": "Tracers",
+    "state": false,
     "keyBind": 0,
     "options": {}
   },
   {
-    "name": "Murder Detector",
-    "state": true,
+    "name": "Fly",
+    "state": false,
+    "keyBind": 67,
+    "options": {
+      "Fly Mode": {
+        "type": "LIST",
+        "selectedIndex": 1
+      }
+    }
+  },
+  {
+    "name": "Boat Fly",
+    "state": false,
     "keyBind": 0,
     "options": {
-      "Call out in chat": {
+      "Fly Speed": {
+        "type": "NUMBER",
+        "value": 3.0
+      }
+    }
+  },
+  {
+    "name": "Killaura",
+    "state": false,
+    "keyBind": 82,
+    "options": {
+      "Hit Delay": {
+        "type": "LIST",
+        "selectedIndex": 0
+      },
+      "Aim Visuals": {
         "type": "BOOLEAN",
         "value": false
+      },
+      "Attack Priority": {
+        "type": "LIST",
+        "selectedIndex": 0
+      },
+      "Silent Aim": {
+        "type": "BOOLEAN",
+        "value": false
+      },
+      "Targets": {
+        "type": "MULTI_LIST",
+        "selectedIndexes": [
+          0,
+          1
+        ]
+      },
+      "Range": {
+        "type": "NUMBER",
+        "value": 4.3
+      },
+      "Through Walls": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Aim Assistance": {
+        "type": "BOOLEAN",
+        "value": false
+      }
+    }
+  },
+  {
+    "name": "Blink",
+    "state": false,
+    "keyBind": 66,
+    "options": {}
+  },
+  {
+    "name": "AutoArmor",
+    "state": false,
+    "keyBind": 77,
+    "options": {
+      "Swap Delay": {
+        "type": "NUMBER",
+        "value": 300.0
       }
     }
   },
@@ -252,28 +259,38 @@
     }
   },
   {
-    "name": "Freecam",
+    "name": "Free Look",
     "state": false,
-    "keyBind": 85,
+    "keyBind": 0,
     "options": {}
   },
   {
-    "name": "Chest Aura",
+    "name": "Disabler",
+    "state": false,
+    "keyBind": 0,
+    "options": {}
+  },
+  {
+    "name": "Murder Finder",
     "state": false,
     "keyBind": 0,
     "options": {
-      "Interaction Range": {
-        "type": "NUMBER",
-        "value": 3.0
+      "Show below nametag": {
+        "type": "BOOLEAN",
+        "value": false
+      },
+      "Call out in chat": {
+        "type": "BOOLEAN",
+        "value": false
       }
     }
   },
   {
-    "name": "No Velocity",
+    "name": "Speed",
     "state": false,
-    "keyBind": 0,
+    "keyBind": 88,
     "options": {
-      "Velocity Type": {
+      "Speed Mode": {
         "type": "LIST",
         "selectedIndex": 1
       }
@@ -282,37 +299,15 @@
   {
     "name": "HUD",
     "state": true,
-    "keyBind": 66,
+    "keyBind": 0,
     "options": {}
   },
   {
-    "name": "AutoArmor",
-    "state": false,
-    "keyBind": 77,
-    "options": {
-      "Swap Delay": {
-        "type": "NUMBER",
-        "value": 300.0
-      }
-    }
-  },
-  {
-    "name": "Resource Spoof",
-    "state": false,
+    "name": "Detector",
+    "state": true,
     "keyBind": 0,
     "options": {
-      "Display Pack URL": {
-        "type": "BOOLEAN",
-        "value": true
-      }
-    }
-  },
-  {
-    "name": "Tower",
-    "state": false,
-    "keyBind": 0,
-    "options": {
-      "Tower Mode": {
+      "Anticheat": {
         "type": "LIST",
         "selectedIndex": 0
       }
@@ -334,21 +329,53 @@
     }
   },
   {
-    "name": "ClickGui",
+    "name": "Block ESP",
+    "state": true,
+    "keyBind": 0,
+    "options": {
+      "Render Type": {
+        "type": "LIST",
+        "selectedIndex": 1
+      }
+    }
+  },
+  {
+    "name": "Lag Break",
     "state": false,
-    "keyBind": 344,
+    "keyBind": 73,
     "options": {}
   },
   {
-    "name": "Tracers",
+    "name": "Bed Breaker",
     "state": false,
     "keyBind": 0,
-    "options": {}
+    "options": {
+      "Break Range": {
+        "type": "NUMBER",
+        "value": 2.3000000000000003
+      }
+    }
   },
   {
-    "name": "Fastplace",
+    "name": "No Velocity",
     "state": false,
     "keyBind": 0,
-    "options": {}
+    "options": {
+      "Velocity Type": {
+        "type": "LIST",
+        "selectedIndex": 1
+      }
+    }
+  },
+  {
+    "name": "Enhanced Visuals",
+    "state": true,
+    "keyBind": 0,
+    "options": {
+      "Item Scale": {
+        "type": "NUMBER",
+        "value": 0.6
+      }
+    }
   }
 ]
